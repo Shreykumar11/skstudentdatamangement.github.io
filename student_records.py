@@ -80,8 +80,8 @@ class student:
         self.e1=StringVar()
         self.e2=StringVar()
         self.e3=StringVar()
-        self.l=Label(root, text="STUDENT DATA MANAGEMENT SYSTEM", fg="red", font="Cambria 24 bold underline")
-        self.l.place(x=55, y=20)
+        self.l=Label(root, text="STUDENT DATABASE MANAGEMENT SYSTEM", fg="red", font="Cambria 24 bold underline")
+        self.l.place(x=20, y=20)
 
         self.T1=Text(root, width=45, height=25, bg="pink")
         self.T1.place(x=300, y=100)
